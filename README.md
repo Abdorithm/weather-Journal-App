@@ -48,7 +48,7 @@ You'll need to have <code>node.js</code> installed in your machine in order to s
 <pre>node server.js</pre><br>
 5. At this point, you'll be able to open the website in your browser. By entering your zip code, you'll get the current temperature in your area/city.
 
-![display from the app](Assets/capture1.png "banner")
+![display from the app](Assets/capture1.PNG "an inside capture")
 
 [(Back to top)](#table-of-contents)
 
