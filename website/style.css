@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body{
+    background: #b9b9b9;
+    font-family: 'Raleway', sans-serif;    
+    margin: 0px ;
+}
+
+#app{
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */  
+    grid-template-rows: auto auto auto auto;
+    height:auto;
+    color: #006172;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;    
+}
+
+.holder.feel{
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.entry{
+    background: #2e3d5c;
+    color: #b9b9b9;
+    min-height: 200px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    max-width: 590px;
+}
+
+#entryHolder{
+    font-family: sans-serif; 
+    font-weight: bold;
+}
+
+.headline {
+    font-weight: bold;
+    font-size: 50px;
+}
+.title{
+    padding-bottom: 20px;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    background:#19738b;
+    color: #b9b9b9;
+    font-size: 20px;
+    font-family: sans-serif;    
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+}
+
+button{
+    width: 300px;
+    height: 60px;
+    background: #2e3d5c;
+    color: #0091ac;
+    font-size: 26px;
+    font-family: sans-serif;    
+    border: none;
+    cursor: pointer;
+    transition: all 400ms;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#feelings {
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+}
+button:hover {
+    box-shadow: 2px 4px 5px rgb(32, 32, 32);
+    background: #222d44;
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    background:#19738b;
+    color: #b9b9b9;
+    font-size: 20px;
+    font-family: sans-serif; 
+    margin-bottom: 15px;   
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #b9b9b9; 
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #b9b9b9; 
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #b9b9b9; 
+} 
